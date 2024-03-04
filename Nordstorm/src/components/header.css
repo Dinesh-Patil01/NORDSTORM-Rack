@@ -1,0 +1,200 @@
+
+.header-parent{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 100%;
+    background: rgb(24, 106, 220);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-a{
+    color: aliceblue
+}
+
+.head-main-container{
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-main-parent{
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head-logo{
+    /* border: 2px solid red; */
+    height: 90px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.head-img{
+    height: 50px; 
+}
+
+.main-search-parent{
+    border: 1px solid black;
+    height: 45px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 150px;
+    margin-left: 35px;
+}
+
+.search-logo{
+    /* border: 2px solid violet; */
+    height: 40px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box{
+    /* border: 2px solid green; */
+    height: 40px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-input{
+    height: 30px;
+    width: 100%;
+    font-size: 15px;
+    border: none;
+}
+
+.head-options{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 40%;
+}
+
+.opt1{
+    color: black;
+    font-size: 20px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.mybtn{
+    border: none;
+    color: black;
+    font-size: 20px;
+    padding-right: 10px;
+    text-decoration: none;
+    background: white;
+}
+
+.opt2{
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+    text-decoration: none;
+    
+}
+.opt3{
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.break-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 98%;
+}
+
+.shop-options-container{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-option-parent{
+    /* border: 2px solid black; */
+    height: 50px;
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.shop-option{
+    /* border: 2px solid black; */
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.options{
+    font-size: 18px;
+    color: rgb(106, 107, 107);
+    text-decoration: none;
+}
+.options:hover{
+    text-decoration: underline;
+}
+
+.sign-account-container{
+    /* border: 2px solid red; */
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.sign-account-parent{
+    /* border: 2px solid black; */
+    height: 140px;
+    width: 40%;
+    margin-top: 10px; 
+}
+.sign-account-text{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.sign-account-btn{
+    /* border: 2px solid black; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.sign-btn{
+    padding: 10px 40px 10px 40px;
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    font-size: 15px;
+    background: white;
+    border-color: rgb(51, 51, 236);
+}
